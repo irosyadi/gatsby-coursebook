@@ -20,20 +20,27 @@ A ball is placed on a beam, see figure below, where it is allowed to roll with 1
 
 The second derivative of the input angle $\alpha$ actually affects the second derivative of $r$. However, we will ignore this contribution. The Lagrangian equation of motion for the ball is then given by the following:
 
-(1)$$ 0 = \left(\frac{J}{R^2}+m\right) \ddot{r} + m g \sin{\alpha} - m r
-\dot{\alpha}^2 $$
+(1)
+
+$$ 0 = \left(\frac{J}{R^2}+m\right) \ddot{r} + m g \sin{\alpha} - m r \dot{\alpha}^2 $$
 
 Linearization of this equation about the beam angle, $\alpha = 0$, gives us the following linear approximation of the system:
 
-(2)$$ \left(\frac{J}{R^2}+m\right) \ddot{r} = - m g \alpha $$
+(2)
+
+$$ \left(\frac{J}{R^2}+m\right) \ddot{r} = - m g \alpha $$
 
 The equation which relates the beam angle to the angle of the gear can be approximated as linear by the equation below:
 
-(3)$$ \alpha = \frac{d}{L}\theta $$
+(3)
+
+$$ \alpha = \frac{d}{L}\theta $$
 
 Substituting this into the previous equation, we get:
 
-(4)$$ \left(\frac{J}{R^2}+m\right) \ddot{r} = - m g \frac{d}{L} \theta $$
+(4)
+
+$$ \left(\frac{J}{R^2}+m\right) \ddot{r} = - m g \frac{d}{L} \theta $$
 
 ### Parameter Sistem
 
