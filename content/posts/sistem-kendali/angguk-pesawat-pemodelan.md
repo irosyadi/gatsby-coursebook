@@ -24,6 +24,7 @@ Dengan asumsi-asumsi tersebut, persamaan longitudinal gerak pesawat dapat dituli
 
 $$ \dot{\alpha} = \mu\Omega\sigma [-(C_L+C_D)\alpha+\frac{1}{(\mu-C_L)}q-(C_W \sin\gamma)\theta+C_L] $$ (1)
 ![pitch_equation](https://raw.githubusercontent.com/irosyadi/vnote.image/master/1617099816_20210330165652657_18683.png)
+
 $$ \dot\theta = \Omega q $$ (2)
 
 Lebih lanjut, bagaimana persamaan di atas diperoleh dapat dipelajari pada berbagai buku teks terkait pesawat terbang.
@@ -31,30 +32,30 @@ Untuk sistem ini, masukan sistem adalah sudut defleksi elevator $\delta$ dan kel
 
 ### Parameter Sistem
 
-Dalam sistem angguk pesawat, berikut adalah parameter-parameter tarkait.
-$\alpha$ = Sudut serang (*Angle of attack*).
-$q$ = Tingkat angguk (*Pitch rate*).
-$\theta$ = Sudut angguk (*Pitch angle*).
-$\delta$ = Sudut defleksi elevator (*Elevator deflection angle*).
-$\mu = \frac{\rho S \bar{c}}{4 m}$.
-$\rho$ = Massa jenis udara (*Density of air*).
-$S$ = Area platform sayap (*Platform area of the wing*).
-$\bar{c}$ = Rerata bentang lebar sayap (*Average chord length*).
-$m$ = Massa pesawat (*Mass of the aircraft*).
-$\Omega = \frac{2 U}{\bar{c}}$.
-$U$ = Kecepatan terbang setimbang (*Equilibrium flight speed*).
-$C_T$ = Koefisien dorong (*Coefficient of thrust*).
-$C_D$ = Koefisien tarik (*Coefficient of drag*).
-$C_L$ = Koefisien angkat (*Coefficient of lift*).
-$C_W$ = Koefisien berat (*Coefficient of weight*).
-$C_M$ = Koefisien momen angguk (*Coefficient of pitch moment*).
-$\gamma$ = Sudut arah terbang (*Flight path angle*).
-$\sigma=\frac{1}{1+\mu C_L}$ = Konstanta.
-$i_{yy}$ = Momen inersia ternormalisasi (*Normalized moment of inertia*).
-$\eta=\mu \sigma C_M$ = Konstanta.
+Dalam sistem angguk pesawat, berikut adalah parameter-parameter tarkait.  
+$\alpha$ = Sudut serang (*Angle of attack*).  
+$q$ = Tingkat angguk (*Pitch rate*).  
+$\theta$ = Sudut angguk (*Pitch angle*).  
+$\delta$ = Sudut defleksi elevator (*Elevator deflection angle*).  
+$\mu = \frac{\rho S \bar{c}}{4 m}$.  
+$\rho$ = Massa jenis udara (*Density of air*).  
+$S$ = Area platform sayap (*Platform area of the wing*).  
+$\bar{c}$ = Rerata bentang lebar sayap (*Average chord length*).  
+$m$ = Massa pesawat (*Mass of the aircraft*).  
+$\Omega = \frac{2 U}{\bar{c}}$.  
+$U$ = Kecepatan terbang setimbang (*Equilibrium flight speed*).  
+$C_T$ = Koefisien dorong (*Coefficient of thrust*).  
+$C_D$ = Koefisien tarik (*Coefficient of drag*).  
+$C_L$ = Koefisien angkat (*Coefficient of lift*).  
+$C_W$ = Koefisien berat (*Coefficient of weight*).  
+$C_M$ = Koefisien momen angguk (*Coefficient of pitch moment*).  
+$\gamma$ = Sudut arah terbang (*Flight path angle*).  
+$\sigma=\frac{1}{1+\mu C_L}$ = Konstanta.  
+$i_{yy}$ = Momen inersia ternormalisasi (*Normalized moment of inertia*).  
+$\eta=\mu \sigma C_M$ = Konstanta.  
 
 
-Persamaan sudut angguk pesawat di atas kemudian dapat disederhanakan menjadi
+Persamaan sudut angguk pesawat di atas kemudian dapat disederhanakan menjadi:  
 
 $$\dot\alpha = K_1\alpha+K_2q+K_3\delta $$
 
@@ -62,7 +63,7 @@ $$\dot q = L_1\alpha+L_2q+L_3\delta $$
 
 $$\dot\theta = \Omega q $$
 
-Berdasarkan data dari salah satu jenis pesawat komersial Boeing, nilai numerikal dari persamaan model angguk pesawat adalah sebagai berikut:
+Berdasarkan data dari salah satu jenis pesawat komersial Boeing, nilai numerikal dari persamaan model angguk pesawat adalah sebagai berikut:  
 
 $$\dot\alpha = -0.313\alpha+56.7q+0.232\delta $$ (3)
 
@@ -72,5 +73,7 @@ $$\dot\theta = 56.7q $$ (5)
 
 ## 7.1.3. Fungsi Alih dan State Space Sistem
 
-Fungsi alih sistem kendaraan dengan masukan sudut defleksi elevator  $\Delta(s)$ dan keluaran sudut angguk ${\Theta}(s)$  adalah ...
-State space system dengan *state vector*  $\left [\begin{array}{c} {\alpha} \\ \ \\ {q} \\ \ \\ {\theta}\end{array}\right]$,  input $V$ dan output $\theta$ adalah ...
+Fungsi alih sistem kendaraan dengan masukan sudut defleksi elevator  $\Delta(s)$ dan keluaran sudut angguk ${\Theta}(s)$  adalah ...  
+
+
+State space system dengan *state vector*  $\left [\begin{array}{c} {\alpha} \\ \ \\ {q} \\ \ \\ {\theta}\end{array}\right]$,  input $V$ dan output $\theta$ adalah ...  
