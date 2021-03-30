@@ -23,7 +23,7 @@ Kita mengasumsikan bahwa pesawat dalam keadaan meluncur secara tetap pada kecepa
 Dengan asumsi-asumsi tersebut, persamaan longitudinal gerak pesawat dapat ditulis sebagai berikutequations.
 
 $$ \dot{\alpha} = \mu\Omega\sigma [-(C_L+C_D)\alpha+\frac{1}{(\mu-C_L)}q-(C_W \sin\gamma)\theta+C_L] $$ (1)
-![pitch_equation](_v_images/20210330165652657_18683.png)
+![pitch_equation](https://raw.githubusercontent.com/irosyadi/vnote.image/master/1617099816_20210330165652657_18683.png)
 $$ \dot\theta = \Omega q $$ (2)
 
 Lebih lanjut, bagaimana persamaan di atas diperoleh dapat dipelajari pada berbagai buku teks terkait pesawat terbang.
