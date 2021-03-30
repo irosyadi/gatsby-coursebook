@@ -26,7 +26,7 @@ const Profile = () => {
     },
   } = useStaticQuery(graphql`
     query ProfileQuery {
-      avatar: file(absolutePath: { regex: "/profile.jpg/" }) {
+      avatar: file(absolutePath: { regex: "/profile.png/" }) {
         childImageSharp {
           fixed(width: 128, height: 128) {
             ...GatsbyImageSharpFixed
