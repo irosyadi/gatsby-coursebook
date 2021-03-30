@@ -176,7 +176,7 @@ export const pageQuery = graphql`
       html
       tableOfContents
       frontmatter {
-        date(formatString: "ddd, MMM D, YYYY")
+        date(formatString: "MMM YYYY")
         title
         tags
       }
