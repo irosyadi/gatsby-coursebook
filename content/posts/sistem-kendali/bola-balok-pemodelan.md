@@ -64,9 +64,10 @@ State space system dengan *state vector* $\left[{\begin{array}{c} r \\ \dot{r} \
 
 The linearized system equations can also be represented in state-space form. This can be done by selecting the ball's position ($r$) and velocity ($\dot{r}$) as the state variable and the gear angle ($\theta$) as the input.
 
-$$ \left[{\begin{array}{c} \dot{r} \\ \ddot{r} \end{array}}\right] =
+$$
+\left[{\begin{array}{c} \dot{r} \\ \ddot{r} \end{array}}\right] =
 \left[{\begin{array}{cc} 0 & 1 \\ 0 & 0 \end{array}}\right]
 \left[{\begin{array}{c} r \\ \dot{r} \end{array}}\right] +
 \left[{\begin{array}{c} 0 \\ -\frac{m g d}{L
-\left(\frac{J}{R^2}+m\right)}\end{array}}\right] \theta$$
-
+\left(\frac{J}{R^2}+m\right)}\end{array}}\right] \theta
+$$
