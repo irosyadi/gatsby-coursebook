@@ -24,13 +24,13 @@ Kita mengasumsikan bahwa pesawat dalam keadaan meluncur secara tetap pada kecepa
 
 Dengan asumsi-asumsi tersebut, persamaan longitudinal gerak pesawat dapat ditulis sebagai berikutequations.
 
-$$ \dot{\alpha} = \mu\Omega\sigma [-(C_L+C_D)\alpha+\frac{1}{(\mu-C_L)}q-(C_W \sin\gamma)\theta+C_L] $$ (1)
+$$ \dot{\alpha} = \mu\Omega\sigma [-(C_L+C_D)\alpha+\frac{1}{(\mu-C_L)}q-(C_W \sin\gamma)\theta+C_L] $$ (1)  
 
-$$ \dot{q} = \frac{\mu \Omega}{2i_{yy}} [[C_M-\eta(C_L+C_D)]\alpha+[C_M+\sigma C_M(1-\mu C_L)]q+(\eta C_W \sin \gamma) \delta ] $$ (2)
+$$ \dot{q} = \frac{\mu \Omega}{2i_{yy}} [[C_M-\eta(C_L+C_D)]\alpha+[C_M+\sigma C_M(1-\mu C_L)]q+(\eta C_W \sin \gamma) \delta ] $$ (2)  
 
-$$ \dot\theta = \Omega q $$ (3)
+$$ \dot\theta = \Omega q $$ (3)  
 
-Lebih lanjut, bagaimana persamaan di atas diperoleh dapat dipelajari pada berbagai buku teks terkait pesawat terbang.
+Lebih lanjut, bagaimana persamaan di atas diperoleh dapat dipelajari pada berbagai buku teks terkait pesawat terbang.  
 Untuk sistem ini, masukan sistem adalah sudut defleksi elevator $\delta$ dan keluarannya adalah sudut angguk $\theta$ dari pesawat.
 
 ### Parameter Sistem
@@ -60,11 +60,11 @@ $\eta=\mu \sigma C_M$ = Konstanta.
 
 Persamaan sudut angguk pesawat di atas kemudian dapat disederhanakan menjadi:  
 
-$$\dot\alpha = K_1\alpha+K_2q+K_3\delta $$ (4)
+$$\dot\alpha = K_1\alpha+K_2q+K_3\delta $$ (4)  
 
-$$\dot q = L_1\alpha+L_2q+L_3\delta $$ (5)
+$$\dot q = L_1\alpha+L_2q+L_3\delta $$ (5)  
 
-$$\dot\theta = \Omega q $$ (6)
+$$\dot\theta = \Omega q $$ (6)  
 
 ### Parameter Sistem
 
@@ -78,11 +78,11 @@ Berdasarkan data dari salah satu jenis pesawat komersial Boeing, nilai numerikal
 - (L3) : 0.0203
 - (Ω) : 56.7
 
-$$\dot\alpha = -0.313\alpha+56.7q+0.232\delta $$ (7)
+$$\dot\alpha = -0.313\alpha+56.7q+0.232\delta $$ (7)  
 
-$$\dot q = -0.0139\alpha-0.426q+0.0203\delta $$ (8)
+$$\dot q = -0.0139\alpha-0.426q+0.0203\delta $$ (8)  
 
-$$\dot\theta = 56.7q $$ (9)
+$$\dot\theta = 56.7q $$ (9)  
 
 ## 7.1.3. Fungsi Alih dan State Space Sistem
 

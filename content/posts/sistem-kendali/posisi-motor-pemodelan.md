@@ -21,18 +21,19 @@ Pada contoh ini, kita mengasumsikan bahwa masukan sistem adalah sumber tegangan 
 ## 4.1.2. Persamaan Sistem
 Secara umum, torsi yang dibangkitkan oleh motor DC proporsional dengan arus armatur dan kekuatan medan magnet permanen. Pada contoh ini, kita mengasumsikan bahwa medan magnetnya bersifat konstan, sehingga torsi motor hanya proporsional dengan arus armatur $i$ dengan faktor konstanta $K_t$ sebagaimana pada persamaan di bawah ini. Model motor DC semacam itu disebut sebagai motor dengan kendali armatur (*armature-controlled motor*).
 
-$$  T = K_{t} i$$ (1)
-Gaya gerak listrik (ggl) balik, $e$, bersifat proporsional dengan kecepatan angular batang dengan faktor konstanta $K_e$.
+$$  T = K_{t} i$$ (1)  
 
-$$  e = K_{e} \dot{\theta}$$ (2)
+Gaya gerak listrik (ggl) balik, $e$, bersifat proporsional dengan kecepatan angular batang dengan faktor konstanta $K_e$.  
+
+$$  e = K_{e} \dot{\theta}$$ (2)  
 
 Konstanta motor torsi dan konstanta gaya gerak listrik adalah sama, $K_t = K_e$; sehingga, kita akan menggunakan $K$ untuk menyatakan kedua konstanta tersebut.
 
-Berdasarkan gambar di atas, kita dapat memperoleh persamaan yang mengatur motor DC berdasarkan hukum ke-2 Newton dan hukum tegangan Kirchhoff.
+Berdasarkan gambar di atas, kita dapat memperoleh persamaan yang mengatur motor DC berdasarkan hukum ke-2 Newton dan hukum tegangan Kirchhoff.  
 
-$$ J\ddot{\theta} + b \dot{\theta} = K i $$ (3)
+$$ J\ddot{\theta} + b \dot{\theta} = K i $$ (3)  
 
-$$ L \frac{di}{dt} + Ri = V - K\dot{\theta}$$ (4)
+$$ L \frac{di}{dt} + Ri = V - K\dot{\theta}$$ (4)  
 
 ### Parameter Sistem
 

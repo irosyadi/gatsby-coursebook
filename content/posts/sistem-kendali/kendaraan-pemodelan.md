@@ -24,13 +24,13 @@ Berdasar asumsi di atas, sistem kendaraan dinyatakan sebagai sebuah sistem orde 
 
 $$
 m \dot{v} + b v = u
-$$ (1)
+$$ (1)  
 
 Karena kita tertarik dengan pengendalian kecepatan kendaraan, maka luaran dari sistem adalah:
 
 $$
 y = v
-$$ (2)
+$$ (2)  
 
 ### Parameter Sistem
 

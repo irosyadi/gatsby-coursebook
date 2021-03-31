@@ -20,20 +20,25 @@ Sebagaimana pada gambar di bawah, sebuah bola ditempatkan pada balok yang mana b
 
 Persamaan Lagrange untuk gerakan bola pada balok dinyatakan dengan:
 
-$$ 0 = \left(\frac{J}{R^2}+m\right) \ddot{r} + m g \sin{\alpha} - m r \dot{\alpha}^2 $$ (1)
+$$ 0 = \left(\frac{J}{R^2}+m\right) \ddot{r} + m g \sin{\alpha} - m r \dot{\alpha}^2 $$ (1)  
+
 dengan $r$ adalah koordinat posisi bola pada balok, $R$ adalah radius bola, $J$ adalah momen inersia bola, $m$ adalah massa bola, dan $g$ adalah percepatan gravitasi.
+
 Dengan melakukan linearisasi pada persamaan tersebut pada sudut balok $\alpha = 0$, aproksimasi persamaan linear sistem adalah:
 
-$$ \left(\frac{J}{R^2}+m\right) \ddot{r} = - m g \alpha $$ (2)
+$$ \left(\frac{J}{R^2}+m\right) \ddot{r} = - m g \alpha $$ (2)  
+
 Persamaan yang menghubungkan dengan sudut balok dengan sudut gir dapat didekati dengan persamaan linear sebagai berikut:
 
 
-$$ \alpha = \frac{d}{L}\theta $$ (3)
+$$ \alpha = \frac{d}{L}\theta $$ (3)  
+
 dengan $d$ adalah offset lengan tuas, $L$ adalah panjang balok dan $\theta$ adalah sudut gir servo.
 
 Dengan melakukan subtitusi ke persamaan sebelumnya, kita mendapatkan:
 
-$$ \left(\frac{J}{R^2}+m\right) \ddot{r} = - m g \frac{d}{L} \theta $$ (4)
+$$ \left(\frac{J}{R^2}+m\right) \ddot{r} = - m g \frac{d}{L} \theta $$ (4)  
+
 Pada persamaan di atas, sebenarnya turunan kedua dari  $\alpha$ berkait dengan turunan kedua dari $r$. Akan tetapi untuk menyederhanakan persamaan sistem, hal tersebut diabaikan. Demikian pula kita mengasumsikan bahwa bola menggelinding tanpa mengalami selip (tergelincir) dan tanpa mengalami friksi dengan balok.  
 
 ### Parameter Sistem
