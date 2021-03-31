@@ -2,7 +2,7 @@
 layout: default
 author: irosyadi
 title:  7.1. Pemodelan Sistem Angguk Pesawat (Aircraft Pitch)
-date: 2021-03-28 15:45:42
+date: 2021-03-29 13:45:42
 category: sistem-kendali
 tags: ["sistem kendali"]
 draft: false
@@ -17,6 +17,8 @@ Persamaan yang mengatur pergerakan pesawat adalah sangat kompleks yang meliputi 
 Koordinat dasar sumbu dan gaya yang bekerja pada sebuah pesawat ditunjukkan pada gambar berikut.
 
 ![Sistem Pesawat](https://raw.githubusercontent.com/irosyadi/vnote.image/master/1617095342_20210330160853818_7698.png)
+
+## 7.1.2. Persamaan Sistem
 
 Kita mengasumsikan bahwa pesawat dalam keadaan meluncur secara tetap pada kecepatan dan ketinggian yang konstan; sehingga daya dorong, daya tarik, berat, dan daya angkat bersifat saling mengimbangi satu sama lain dalam arah x dan y. Kita juga mengasumsikan bahwa perubahan pada sudut angguk tidak akan mengubah kecepatan pesawat (meskipun pada aslinya tidak seperti itu). 
 
@@ -64,7 +66,17 @@ $$\dot q = L_1\alpha+L_2q+L_3\delta $$ (5)
 
 $$\dot\theta = \Omega q $$ (6)
 
+### Parameter Sistem
+
 Berdasarkan data dari salah satu jenis pesawat komersial Boeing, nilai numerikal dari persamaan model angguk pesawat adalah sebagai berikut:  
+
+- (K1) : -0.313
+- (K2) : 56.7
+- (K3) : 0.232
+- (L1) : -0.0139
+- (L2) : -0.426
+- (L3) : 0.0203
+- (Ω) : 56.7
 
 $$\dot\alpha = -0.313\alpha+56.7q+0.232\delta $$ (7)
 

@@ -2,7 +2,7 @@
 layout: default
 author: irosyadi
 title:  4.1. Pemodelan Posisi Motor
-date: 2021-03-28 14:45:42
+date: 2021-03-29 12:45:42
 category: sistem-kendali
 tags: ["sistem kendali"]
 draft: false
@@ -10,7 +10,7 @@ draft: false
 
 # 4.1. Pemodelan Posisi Motor
 
-## 3.1.1. Sistem Posisi Motor
+## 4.1.1. Sistem Posisi Motor
 
 Motor DC adalah salah satu aktuator yang paling umum digunakan di sistem kendali. Motor DC berfungsi menyediakan luaran berupa gerakan berputar, dan apabila dikopling dengan tabung dan kabel/karet dapat menyediakan luaran berupa gerakan translasi. Rangkaian listrik ekivalen dari armatur dan *free-body diagram*  dari rotor sebuah motor ditunjukkan pada gambar berikut.
 
@@ -44,7 +44,7 @@ $$ L \frac{di}{dt} + Ri = V - K\dot{\theta}$$ (4)
 - (R) resistansi: 4 Ohm
 - (L) induktansi: 2.75E-6 H
 
-## 3.1.3. Fungsi Alih dan State Space Sistem
+## 4.1.3. Fungsi Alih dan State Space Sistem
 
 Fungsi alih sistem kendaraan dengan masukan $V(s)$ dan keluaran ${\Theta}(s)$  adalah ...  
 

@@ -2,7 +2,7 @@
 layout: default
 author: irosyadi
 title:  3.1. Pemodelan Kecepatan Motor
-date: 2021-03-28 13:45:42
+date: 2021-03-29 11:45:42
 category: sistem-kendali
 tags: ["sistem kendali"]
 draft: false

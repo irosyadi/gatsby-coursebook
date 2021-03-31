@@ -2,7 +2,7 @@
 layout: default
 author: irosyadi
 title:  2.1. Pemodelan Sistem Kendaraan
-date: 2021-03-28 10:04:55
+date: 2021-03-29 10:04:55
 category: sistem-kendali
 tags: ["sistem kendali"]
 draft: false
