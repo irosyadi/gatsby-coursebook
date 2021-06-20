@@ -18,56 +18,56 @@ draft: false
     - Administrasi mata kuliah
 - Pekan 2: Klasifikasi Citra
     - Klasifikasi berbasis data (*data-driven*)
-    - *K-nearest neighbor*
-    - Hyperparameter
-    - Cross-validation
-    - Klasifikasi linear I
+    - *k-nearest neighbor*
+    - Klasifikasi linear
 - Pekan 3: Pengenalan Perangkat Lunak dan Platform untuk *Machine Learning*
     - Python / Numpy
     - Jupyter Notebook / Google Colab
-    - Google Cloud
-- Pekan 4: Optimisasi (*optimization*)
-    - *Loss function*
-    - Klasifikasi linear II
-    - Representasi tingkat tinggi dan fitur/ciri citra
-    - *Optimization* dan *stochastic gradient descent*
-- Pekan 5: Pendahuluan Jaringan Saraf
-    - *Backpropagation*
+- Pekan 4: Klasifikasi Linear
+    - Klasifikasi linear
+    - Fitur citra
+- Pekan 5: Optimisasi (*optimization*)
+    - *Loss functions*
+    - *Optimization*
+    - *Stochastic gradient descent*
+- Pekan 6: Pendahuluan Jaringan Saraf
     - Perceptron lapis-jamak (*multi-layer perceptrons*)
-- Pekan 6: Pengenalan Perangkat Keras dan Perangkat Lunak untuk *Deep Learning*
-    - CPUs, GPUs, TPUs
-    - PyTorch, TensorFlow
-- Pekan 7: Pengenalan Pytorch dan Tensorflow
-- Pekan 8: Perencanaan Proyek and Tugas #1
-    - Tugas #1 dengan topik kNN, SVM, SoftMax, *two-layer network*.
-- Pekan 9: Convolutional Neural Networks (CNN)
+    - *Backpropagation*
+    - Tugas #1 dengan topik kNN, SVM, SoftMax, jaringan dua lapis
+- Pekan 7: Convolutional Neural Networks (CNN)
     - Sejarah
     - Lapis*Convolution* dan *pooling*
     - Teori dan rancangan jaringan
     - Aplikasi CNN untuk *computer vision* dan aplikasi lain
-- Pekan 10: Pelatihan Jaringan Saraf pada CNN/DNN I
+- Ujian Tengah Semester
+- Pekan 8: Pengenalan Perangkat Keras dan Pustaka untuk *Deep Learning*
+    - CPUs, GPUs, TPUs
+    - PyTorch, TensorFlow
+- Pekan 9: Perencanaan dan Diskusi Proyek
+    - Perencanaan dan Diskusi Proyek
+    - Tugas #2 : jaringan saraf tiruan, CNN
+- Pekan 10: Presentasi Proposal dan Finalisasi Topik Proyek
+- Pekan 11: Pelatihan Jaringan Saraf pada CNN/DNN I
     - Fungsi aktivasi
-    - Pengolahan data
     - Inisialisasi
     - *Gradient Flow*
     - *Batch Normalization*
+- Pekan 12: Pelatihan Jaringan Saraf pada CNN/DNN II
+    - Pembaruan parameter
+    - *Ensemble*
+    - *Dropout*
     - *Transfer learning*
-- Pekan 11: Pelatihan Jaringan Saraf pada CNN/DNN II
-    - Backpropagation
-    - Parameter updates
-    - Update rules, hyperparameter tuning, learning rate scheduling, data augmentation
-    - Ensemble, dropout
-- Lecture 12: Arsitektur-arsitektur CNN
-    - Arsitektur populer: AlexNet, VGG, GoogLeNet, ResNet
-    - Arsitektur lain untuk klasifikasi dan deteksi
+- Pekan 13: Arsitektur-arsitektur CNN
+    - Arsitektur untuk klasifikasi: AlexNet, VGG, GoogLeNet, ResNet
+    - Arsitektur untuk deteksi: YOLO
     - Dataset *deep learning* untuk *computer vision*
-- Lecture 13: Proposal Proyek dan Tugas #2
-    - Tugas #2 : jaringan saraf, CNN
-- Lecture 14: Topik Lanjut tentang DNN
-    -  Algoritme untuk deteksi dan segmentasi
+    - Progress proyek
+- Pekan 14: Topik Lanjut
+    - Visualisasi *Deep Network*
+    - Algoritme untuk deteksi dan segmentasi
     - *Recurrent Neural Networks*
-        - RNN, LSTM, GRU
-        - Aplikasi RNN untuk pemodelan bahasa, penjudulan citra, dan tanya jawab visual
     - *Generative Models*
     - *Adversarial Networks*
     - Etika, transparansi, akuntabilitas, dan keadilan pada AI
+- Ujian Akhir Semester
+    - Presentasi Proyek
